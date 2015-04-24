@@ -1,0 +1,41 @@
+.background-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin: 10px 0 20px;
+}
+
+textarea {
+    height: 10em;
+}
+
+.captcha-container {
+    margin-bottom: 15px;
+}
+
+footer {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0 5px;
+}
+
+@media (max-width: 1050px and min-width: 800px) {
+    .background-image {
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 799px) {
+    .background-image {
+        display: none;
+    }
+}
